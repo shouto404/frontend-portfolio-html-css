@@ -6,7 +6,7 @@ This is my personal frontend portfolio website built with React.
 - Responsive design
 - Modern UI
 - Project showcase
-- Contact form
+- Shop card
 
 ## Tech Stack
 - html
