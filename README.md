@@ -1,2 +1,14 @@
-# frontend-portfolio-html-css
-Responsive and modern portfolio website to showcase my frontend development projects and skills.
+# My Portfolio Website
+
+This is my personal frontend portfolio website built with React.
+
+## Features
+- Responsive design
+- Modern UI
+- Project showcase
+- Contact form
+
+## Tech Stack
+- React
+- Tailwind CSS
+- JavaScript
