@@ -9,6 +9,6 @@ This is my personal frontend portfolio website built with React.
 - Contact form
 
 ## Tech Stack
-- React
-- Tailwind CSS
-- JavaScript
+- html
+- CSS
+- bootstrap
