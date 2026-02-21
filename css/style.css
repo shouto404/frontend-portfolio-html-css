@@ -1,0 +1,262 @@
+ :root {
+    --bluesoft: #F9FBFC;
+    --blue: #3A38FF;
+    --navy: #101041;
+    --softpurple: #E5E4FF;
+    --grey: #DFE2E7;
+    --darkgrey: #949293;
+    --darkgrey2: #E7EBED;
+    --purple: #6261D8;
+    --green: #316762;
+    --white: #FFFFFF;
+    --fwbold: 800;
+    --fwextrabold: 900;
+    --fwsemibold: 600;
+    --fwmedium: 500;
+    --fwregular: 400;
+    --fwlight: 300;
+
+ }
+
+ body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--bluesoft);
+ }
+
+  .big-header {
+    font-weight: var(--fwextrabold);
+    color: var(--navy);
+    font-size: 48px;
+    line-height: 60px;
+    margin: 0;
+ }
+
+  .medium-header {
+    font-weight: var(--fwbold);
+    color: var(--navy);
+    font-size: 28px;
+    list-style: 28px;
+    margin: 0;
+ }
+
+  .small-header {
+    font-weight: var(--fwbold);
+    color: var(--navy);
+    font-size: 22px;
+    margin: 0;
+ }
+
+  .primary-copy {
+    font-weight: var(--fwregular);
+    color: var(--darkgrey);
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+ }
+
+ .text-button {
+    text-decoration: none;
+    color: var(--blue);
+ }
+
+ .text-button:hover {
+    text-decoration: underline;
+    color: var(--navy);
+ }
+
+ .btn-primary {
+    padding: 12px 20px 12px 20px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: var(--fwsemibold);
+    border-radius: 50px;
+ }
+
+  .btn-secondary {
+    padding: 12px 20px 12px 20px;
+    background-color: var(--grey);
+    color: var(--navy);
+    font-size: 16px;
+    font-weight: var(--fwmedium);
+    border-radius: 50px;
+    border: 0;
+ }
+
+   .btn-secondary:hover {
+    background-color: var(--navy);
+    color: var(--white) !important;
+ }
+
+ .navbar-nav .nav-item a:hover {
+    color: var(--blue);
+    transition: all 0.3s ease;
+    font-weight: var(--fwsemibold);
+ }
+
+ .navbar-nav .nav-item a {
+    color: var(--navy);
+    transition: all 0.3s ease;
+ }
+
+ .navbar-nav .nav-item {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: var(--fwbold);
+ }
+
+ .navbar-brand {
+    font-weight: var(--fwbold);
+    font-size: 28px;
+    color: var(--navy);
+ }
+
+ .navbar {
+    --bs-navbar-padding-y: 0;
+ }
+
+ .shoutoshop-navbar {
+    padding: 30px;
+    background: var(--white);
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+ }
+
+ .small-copy {
+    font-size: 14px;
+    color: var(--navy);
+    font-weight: var(--fwbold);
+ }
+
+ .badge {
+    padding: 8px 40px 8px 15px;
+    background: var(--softpurple);
+    border-radius: 50px;
+ }
+
+ .badge-pricing {
+    display: inline-flex;
+    padding: 15px 10px 15px 10px;
+    background: var(--grey);
+    border-radius: 20px;
+ }
+
+ .badge .icon{
+    float: left;
+    margin-left: 0;
+ }
+
+ .badge .small-copy {
+    padding-top: 4px;
+    margin: 0;
+ }
+
+ .mt-70 {
+    margin-top: 70px;
+ }
+
+ .mr-10 {
+    margin-right: 10px;
+ }
+
+ .mr-30 {
+   margin-right: 30px;
+ }
+
+ .mr-min-10 {
+    margin-right: -10px;
+ }
+
+ .mb-10{
+    margin-bottom: 10px;
+ }
+
+ .mb-20{
+    margin-bottom: 20px;
+ }
+
+ .mb-30{
+    margin-bottom: 30px;
+ }
+
+ .card-brand {
+    width: 227px;
+    height: 110px;
+    border-radius: 16px;
+    text-align: center;
+ }
+
+ .card-brand .logo {
+    height: 50px;
+    margin-top: 30px;
+ }
+
+ .carousel-wrapper {
+    display: flex;
+    height: 110px;
+    animation: MoveSlideToLeft 20s linear infinite;
+ }
+
+ .carousel {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+    overflow: hidden;
+ }
+
+  .carousel-wrapper-left {
+    display: flex;
+    height: 110px;
+    animation: MoveSlideToRight 20s linear infinite;
+ }
+
+ .carousel-left {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+    overflow: hidden;
+ }
+ 
+
+ .features .features-wrapper .big-feature-card {
+    padding: 30px;
+    border-radius: 16px;
+    background: var(--white);
+    padding-bottom: 60px;
+    cursor: pointer;
+ }
+
+ .features .features-wrapper .icon{
+    float: left;
+    width: 60px;
+    height: 200px;
+    margin-right: 15px;
+ }
+
+ .footer {
+    padding: 30px;
+    background: var(--white);
+ }
+
+
+
+ @keyframes MoveSlideToLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+ }
+
+ @keyframes MoveSlideToRight {
+    0% {
+        transform: translatex(0%);
+    }to {
+        transform: translateX(100%);
+    }
+    
+ }
+
